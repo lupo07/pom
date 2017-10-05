@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression TestSuite]">
+  <test name="App Test(failed)">
+    <parameter name="baseURL" value="http://www.google.com"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="suite.Regression">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="Test"/>
+        </methods>
+      </class> <!-- suite.Regression -->
+    </classes>
+  </test> <!-- App Test(failed) -->
+</suite> <!-- Failed suite [Regression TestSuite] -->

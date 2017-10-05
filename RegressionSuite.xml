@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression TestSuite">
+<test name="App Test">
+ <parameter name="browser" value="firefox"></parameter>
+ <parameter name="baseURL" value="http://www.google.com"></parameter>
+	<classes>
+		<class name="suite.Regression"></class>
+	</classes>
+</test>
+</suite>
