@@ -8,8 +8,8 @@
       <class name="suite.Regression">
         <methods>
           <include name="setUp"/>
+          <include name="LoginTest"/>
           <include name="cleanUp"/>
-          <include name="Test"/>
         </methods>
       </class> <!-- suite.Regression -->
     </classes>

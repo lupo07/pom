@@ -1,0 +1,2 @@
+13:46:32.994 INFO  ExplicitWaits -Waiting for max:: 5 seconds for element to be available
+13:46:33.007 DEBUG ExplicitWaits -Element is not present java.lang.NullPointerException
