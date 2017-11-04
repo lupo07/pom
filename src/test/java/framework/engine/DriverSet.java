@@ -9,8 +9,8 @@ public class DriverSet {
 	WebDriver driver;
 	String browser;
 
-	public DriverSet(WebDriver driver, String browser) {
-		this.driver = driver;
+	public DriverSet( String browser) {
+
 		this.browser = browser;
 
 	}
