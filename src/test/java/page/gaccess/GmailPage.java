@@ -46,6 +46,9 @@ public class GmailPage {
 	@FindBy(id = "passwordNext")
 	WebElement nextPassButton;
 
+	@FindBy(xpath = "//div[@class='LXRPh'][@xpath='1']/div[@class='dEOOab RxsGPe']")
+	WebElement errorMessage;
+
 	/**
 	 * Constructor
 	 * 
@@ -85,7 +88,7 @@ public class GmailPage {
 		userName.sendKeys(username);
 		log.info("User " + username + " was sent");
 	}
-	
+
 	public void clickNextButton() {
 		Assert.assertTrue(exwt.waitForElement(nextButton, Constants.EXPLICIT_WAIT_GMAIL_PAGE));
 		log.info("Next button is displayed");
@@ -106,12 +109,26 @@ public class GmailPage {
 		passwordInput.sendKeys(password);
 		log.info("Password for the user " + password + " was sent");
 	}
-	
+
 	public void clickPassNextButton() {
 		Assert.assertTrue(exwt.waitForElement(nextPassButton, Constants.EXPLICIT_WAIT_GMAIL_PAGE));
 		log.info("Next Password Button is displayed");
 		nextPassButton.click();
 		log.info("Click on Next Password Button");
+	}
+
+	public String getErrorMessage() {
+		Assert.assertTrue(exwt.waitForElement(errorMessage, Constants.EXPLICIT_WAIT_GMAIL_PAGE));
+		log.info("The error message is displayed");
+		String errorM = errorMessage.getText();
+		return errorM;
+	}
+
+	public String getErrorColor() {
+		Assert.assertTrue(exwt.waitForElement(errorMessage, Constants.EXPLICIT_WAIT_GMAIL_PAGE));
+		log.info("The error message is displayed");
+		String colorM = errorMessage.getCssValue("color");
+		return colorM;
 	}
 
 }

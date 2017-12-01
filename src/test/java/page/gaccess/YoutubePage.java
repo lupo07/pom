@@ -1,5 +1,9 @@
 package page.gaccess;
 
+import java.awt.Toolkit;
+import java.awt.datatransfer.StringSelection;
+import java.io.File;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -11,11 +15,13 @@ import org.testng.Assert;
 
 import framework.engine.ExplicitWaits;
 import framework.engine.Constants;
+import framework.engine.RobotKeys;
 
 public class YoutubePage {
 	WebDriver driver;
 	ExplicitWaits exwt;
-	Actions actions; 
+	Actions actions;
+	RobotKeys robot;
 	private static final Logger log = LogManager.getLogger(YoutubePage.class.getName());
 
 	/***
@@ -33,24 +39,25 @@ public class YoutubePage {
 
 	@FindBy(xpath = "//div[@id='start-upload-button-single']/button")
 	WebElement selectFilesToUpload;
-	
+
 	@FindBy(xpath = "//input[@type='file'][@style='opacity: 0; font-size: 157px; height: 157px; position: absolute; right: 0px; top: 0px;']")
 	WebElement selectFilesToUploadClick;
 
 	@FindBy(xpath = "//span[@class='yt-uix-button-content'][text()='Add more videos']")
 	WebElement addMoreVidsButton;
-	
+
 	/**
 	 * Constructor
 	 * 
 	 * @param driver
 	 */
-	
+
 	public YoutubePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		exwt = new ExplicitWaits(driver);
 		actions = new Actions(driver);
+		robot = new RobotKeys();
 	}
 
 	/**
@@ -76,14 +83,38 @@ public class YoutubePage {
 		log.info("Click on Youtube Upload");
 	}
 
-	public void clickSelectFiles() {
+	public void clickSelectFiles() throws Exception {
 		Assert.assertTrue(exwt.waitForElement(selectFilesToUpload, Constants.EXPLICIT_WAIT_YOUTUBE_PAGE));
 		log.info("Select files to upload button is displayed");
 		actions.moveToElement(selectFilesToUploadClick).click().perform();
 		log.info("Click Select files to upload button");
+		Thread.sleep(5000);
 	}
 
 	public void sendVideotoUploadPath() {
+		getFilesListToUpload();
+		robot.pasteKeys();
+		robot.enterKeys();
+	}
+
+	public void getFilesListToUpload() {
+		File folder = new File(Constants.VIDEO_FILE_PATH);
+		File[] listOfFiles = folder.listFiles();
+
+		for (int i = 0; i < listOfFiles.length; i++) {
+			if (listOfFiles[i].isFile()) {
+				String pvid = Constants.VIDEO_FILE_PATH + listOfFiles[i].getName();
+
+				StringSelection ss = new StringSelection(pvid);
+
+				Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
+
+				System.out.println("File " + listOfFiles[i].getName());
+				// add to list
+			} else if (listOfFiles[i].isDirectory()) {
+				System.out.println("Directory " + listOfFiles[i].getName());
+			}
+		}
 
 	}
 

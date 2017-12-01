@@ -22,10 +22,9 @@ import org.testng.annotations.AfterClass;
 //import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Parameters;
 
-
-public class Regression  {
+public class Regression {
 	WebDriver driver;
-	String baseURL; 
+	String baseURL;
 	String browser = "chrome";
 	DriverSet ds = new DriverSet(browser);
 	GoogleAccessPageFactory gapf;
@@ -33,45 +32,43 @@ public class Regression  {
 	YoutubePage ytp;
 	private static final Logger log = LogManager.getLogger(Regression.class.getName());
 
-	
-
 	@BeforeClass
-	@Parameters({ "baseURL"})
+	@Parameters({ "baseURL" })
 	public void setUp(String baseURL) {
 		driver = ds.driverReturn();
 		driver.get(baseURL);
 		gapf = new GoogleAccessPageFactory(driver);
 		gmp = new GmailPage(driver);
 		ytp = new YoutubePage(driver);
-		this.baseURL=baseURL;
+		this.baseURL = baseURL;
 		log.info("The Suite is Started");
 	}
 
-//	@BeforeMethod
-//	public void testSet(Method method) {
-//		log.info("                                                   ");
-//		log.info("***************************************************");
-//		log.info("The Test "+ method.getName()+" has started");
-//		log.info("***************************************************");
-//		log.info("                                                   ");
-//	}
-	
-//	@DataProvider(name = "loginData")
-//	public Object[][] dataProvider() {
-//		Object[][] testData = ExcelReader.getTestData("Invalid_Login");
-//		return testData;
-//	}
-	
+	// @BeforeMethod
+	// public void testSet(Method method) {
+	// log.info(" ");
+	// log.info("***************************************************");
+	// log.info("The Test "+ method.getName()+" has started");
+	// log.info("***************************************************");
+	// log.info(" ");
+	// }
+
+	// @DataProvider(name = "loginData")
+	// public Object[][] dataProvider() {
+	// Object[][] testData = ExcelReader.getTestData("Invalid_Login");
+	// return testData;
+	// }
+
+	// @Test
+	// public void GmailAccessTest() {
+	// log.info("The test Started");
+	// gapf.clickGmailHeader();
+	// gmp.gmailLogo();
+	// gmp.gmailHeadingText();
+	// }
+
 	@Test
-	public void GmailAccessTest() {
-		log.info("The test Started");
-		gapf.clickGmailHeader();
-		gmp.gmailLogo();
-		gmp.gmailHeadingText();				
-	}
-	
-	@Test
-	public void YoutubeAccessTest() {
+	public void YoutubeAccessTest() throws Exception {
 		driver.get(baseURL);
 		log.info("The test Started");
 		gapf.clickAppsLogo();
@@ -84,38 +81,38 @@ public class Regression  {
 		gmp.clickPassNextButton();
 		ytp.clickUpload();
 		ytp.clickSelectFiles();
+		ytp.sendVideotoUploadPath();
+		Thread.sleep(5000);
 	}
-	
-	
-//	@Test(dataProvider="loginData")
-//	public void testUsingExcel(String username, String password) throws Exception {
-//		driver.get(baseURL);
-//		log.info("The test Started");
-//		gapf.clickAppsLogo();
-//		gapf.clickYoutubeLogo();
-//		ytp.clickYoutubeSignIn();
-//		gmp.gmailLogo();
-//		gmp.fillUserName(username);
-//		gmp.clickNextButton();
-//		gmp.fillPassword(password);
-//		gmp.clickPassNextButton();
-//		
-//	}
-	
-	
-	
-//	@AfterMethod
-//	public void testClosure(Method method, ITestResult result) {
-//		log.info("                                                   ");
-//		log.info("***************************************************");
-//		log.info("The test has "+ result.getStatus());
-//		log.info("***************************************************");
-//		log.info("+++++++++++++++++++++++++++++++++++++++++++++++++++");
-//		log.info("***************************************************");
-//		log.info("The Test "+ method.getName()+" has being completed");
-//		log.info("***************************************************");
-//		log.info("                                                   ");
-//	}
+
+	// @Test(dataProvider="loginData")
+	// public void testUsingExcel(String username, String password) throws
+	// Exception {
+	// driver.get(baseURL);
+	// log.info("The test Started");
+	// gapf.clickAppsLogo();
+	// gapf.clickYoutubeLogo();
+	// ytp.clickYoutubeSignIn();
+	// gmp.gmailLogo();
+	// gmp.fillUserName(username);
+	// gmp.clickNextButton();
+	// gmp.fillPassword(password);
+	// gmp.clickPassNextButton();
+	//
+	// }
+
+	// @AfterMethod
+	// public void testClosure(Method method, ITestResult result) {
+	// log.info(" ");
+	// log.info("***************************************************");
+	// log.info("The test has "+ result.getStatus());
+	// log.info("***************************************************");
+	// log.info("+++++++++++++++++++++++++++++++++++++++++++++++++++");
+	// log.info("***************************************************");
+	// log.info("The Test "+ method.getName()+" has being completed");
+	// log.info("***************************************************");
+	// log.info(" ");
+	// }
 
 	@AfterClass
 	public void cleanUp() {
