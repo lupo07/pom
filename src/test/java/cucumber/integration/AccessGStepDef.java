@@ -61,7 +61,7 @@ public class AccessGStepDef {
 		gmp.clickPassNextButton();
 	}
 
-	@Then("^I should be able to get the proper error (.*?)$")
+	@Then("^I should be able to get the proper error(.*?)$")
 	public void I_should_be_able_to_get_the_proper_error(String error) {
 		acf.setError(error);
 	}
@@ -72,17 +72,20 @@ public class AccessGStepDef {
 		gmp.gmailLogo();
 		gmp.fillUserName(acf.getAccount());
 		gmp.clickNextButton();
-
-		if (acf.getAccount() != null) {
-			gmp.fillPassword(acf.getPassword());
-			gmp.clickPassNextButton();
-		}
-
-		assertEquals(acf.getError(), gmp.getErrorMessage());
-		log.info("Expected error message is: "+ acf.getError()+" Actual Error Message is: " + gmp.getErrorMessage());
 		
-		assertEquals(acf.getColor(), gmp.getErrorColor());
-		log.info("Expected error color is: "+ acf.getColor()+" Actual Color Message is: " + gmp.getErrorColor());
+
+//		if (acf.getAccount() != null&& acf.getPassword()!=null) {
+//			gmp.fillPassword(acf.getPassword());
+//			gmp.clickPassNextButton();
+//		}
+
+		 assertEquals(acf.getError(), gmp.getErrorMessage());
+		 log.info("Expected error message is: "+ acf.getError()+" Actual Error Message is: " + gmp.getErrorMessage());
+		
+		 assertEquals(acf.getColor(), gmp.getErrorColor());
+		 log.info("Expected error color is: "+ acf.getColor()+" Actual Color Message is: " + gmp.getErrorColor());
+
+		 driver.quit();
 	}
 
 }

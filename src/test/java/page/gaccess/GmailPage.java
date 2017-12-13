@@ -46,7 +46,7 @@ public class GmailPage {
 	@FindBy(id = "passwordNext")
 	WebElement nextPassButton;
 
-	@FindBy(xpath = "//div[@class='LXRPh'][@xpath='1']/div[@class='dEOOab RxsGPe']")
+	@FindBy(xpath = "//div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']")
 	WebElement errorMessage;
 
 	/**

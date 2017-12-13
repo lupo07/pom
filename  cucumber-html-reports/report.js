@@ -7,137 +7,60 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 4,
-  "name": "Access to google account",
-  "description": "",
-  "id": "access-the-google-account;access-to-google-account",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 5,
-  "name": "I have a google account  \u003caccount\u003e",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "I have the password \u003cpassword\u003e",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "I try to access",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "I should be able to enter to my account",
-  "keyword": "Then "
-});
-formatter.examples({
-  "line": 11,
-  "name": "",
-  "description": "",
-  "id": "access-the-google-account;access-to-google-account;",
-  "rows": [
+  "comments": [
     {
-      "cells": [
-        "account",
-        "password"
-      ],
-      "line": 12,
-      "id": "access-the-google-account;access-to-google-account;;1"
+      "line": 2,
+      "value": "#"
     },
     {
-      "cells": [
-        "eduardo.alvarez0007",
-        "S3r3nd1p1aLup0N3r0"
-      ],
+      "line": 3,
+      "value": "#"
+    },
+    {
+      "line": 4,
+      "value": "#  Scenario Outline: Access to google account"
+    },
+    {
+      "line": 5,
+      "value": "#    Given I have a google account  \u003caccount\u003e"
+    },
+    {
+      "line": 6,
+      "value": "#    And I have the password \u003cpassword\u003e"
+    },
+    {
+      "line": 7,
+      "value": "#    When I try to access"
+    },
+    {
+      "line": 8,
+      "value": "#    Then I should be able to enter to my account"
+    },
+    {
+      "line": 9,
+      "value": "#"
+    },
+    {
+      "line": 10,
+      "value": "#"
+    },
+    {
+      "line": 11,
+      "value": "#    Examples:"
+    },
+    {
+      "line": 12,
+      "value": "#    |              account             |          password        |"
+    },
+    {
       "line": 13,
-      "id": "access-the-google-account;access-to-google-account;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.before({
-  "duration": 7196726579,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 13,
-  "name": "Access to google account",
-  "description": "",
-  "id": "access-the-google-account;access-to-google-account;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 5,
-  "name": "I have a google account  eduardo.alvarez0007",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "I have the password S3r3nd1p1aLup0N3r0",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "I try to access",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 8,
-  "name": "I should be able to enter to my account",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
+      "value": "#    |      eduardo.alvarez0007         |    S3r3nd1p1aLup0N3r0    |"
+    },
     {
-      "val": " eduardo.alvarez0007",
-      "offset": 24
+      "line": 14,
+      "value": "#"
     }
   ],
-  "location": "AccessGStepDef.I_have_a_google_account(String)"
-});
-formatter.result({
-  "duration": 103377732,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "S3r3nd1p1aLup0N3r0",
-      "offset": 20
-    }
-  ],
-  "location": "AccessGStepDef.I_have_the_password(String)"
-});
-formatter.result({
-  "duration": 107556,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AccessGStepDef.I_try_to_access()"
-});
-formatter.result({
-  "duration": 1470585124,
-  "status": "passed"
-});
-formatter.match({
-  "location": "AccessGStepDef.I_should_be_able_to_enter_to_my_account()"
-});
-formatter.result({
-  "duration": 2150566155,
-  "status": "passed"
-});
-formatter.scenarioOutline({
   "line": 16,
   "name": "Validate the error message when trying to access a google account",
   "description": "",
@@ -190,8 +113,8 @@ formatter.examples({
       "cells": [
         "",
         "",
-        "No se ha podido encontrar tu cuenta de Google",
-        "#d50000"
+        "Ingresa un correo electrónico o número de teléfono",
+        "rgba(213, 0, 0, 1)"
       ],
       "line": 25,
       "id": "access-the-google-account;validate-the-error-message-when-trying-to-access-a-google-account;;2"
@@ -200,7 +123,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5909040929,
+  "duration": 7571242349,
   "status": "passed"
 });
 formatter.scenario({
@@ -234,7 +157,7 @@ formatter.step({
 });
 formatter.step({
   "line": 20,
-  "name": "I should be able to get the proper errorNo se ha podido encontrar tu cuenta de Google",
+  "name": "I should be able to get the proper errorIngresa un correo electrónico o número de teléfono",
   "matchedColumns": [
     2
   ],
@@ -242,7 +165,7 @@ formatter.step({
 });
 formatter.step({
   "line": 21,
-  "name": "The color should be #d50000",
+  "name": "The color should be rgba(213, 0, 0, 1)",
   "matchedColumns": [
     3
   ],
@@ -258,7 +181,7 @@ formatter.match({
   "location": "AccessGStepDef.I_have_a_google_account(String)"
 });
 formatter.result({
-  "duration": 148000,
+  "duration": 115974957,
   "status": "passed"
 });
 formatter.match({
@@ -271,30 +194,41 @@ formatter.match({
   "location": "AccessGStepDef.I_have_the_password(String)"
 });
 formatter.result({
-  "duration": 67111,
+  "duration": 266666,
   "status": "passed"
 });
 formatter.match({
   "location": "AccessGStepDef.I_try_to_access()"
 });
 formatter.result({
-  "duration": 1571299301,
+  "duration": 1817952243,
   "status": "passed"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "#d50000",
+      "val": "Ingresa un correo electrónico o número de teléfono",
+      "offset": 40
+    }
+  ],
+  "location": "AccessGStepDef.I_should_be_able_to_get_the_proper_error(String)"
+});
+formatter.result({
+  "duration": 87111,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "rgba(213, 0, 0, 1)",
       "offset": 20
     }
   ],
   "location": "AccessGStepDef.The_color_should_be(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5857471745,
+  "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertTrue(Assert.java:41)\r\n\tat org.testng.Assert.assertTrue(Assert.java:51)\r\n\tat page.gaccess.GmailPage.fillPassword(GmailPage.java:107)\r\n\tat cucumber.integration.AccessGStepDef.The_color_should_be(AccessGStepDef.java:78)\r\n\tat ✽.And The color should be rgba(213, 0, 0, 1)(Features/Access.feature:21)\r\n",
+  "status": "failed"
 });
 });

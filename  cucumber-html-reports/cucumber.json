@@ -6,94 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7196726579,
-              "status": "passed"
-            },
-            "match": {
-              "location": "AccessGStepDef.setUp()"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "Access to google account",
-        "description": "",
-        "id": "access-the-google-account;access-to-google-account;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 103377732,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I have a google account  eduardo.alvarez0007",
-            "match": {
-              "arguments": [
-                {
-                  "val": " eduardo.alvarez0007",
-                  "offset": 24
-                }
-              ],
-              "location": "AccessGStepDef.I_have_a_google_account(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 107556,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I have the password S3r3nd1p1aLup0N3r0",
-            "match": {
-              "arguments": [
-                {
-                  "val": "S3r3nd1p1aLup0N3r0",
-                  "offset": 20
-                }
-              ],
-              "location": "AccessGStepDef.I_have_the_password(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1470585124,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I try to access",
-            "match": {
-              "location": "AccessGStepDef.I_try_to_access()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2150566155,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I should be able to enter to my account",
-            "match": {
-              "location": "AccessGStepDef.I_should_be_able_to_enter_to_my_account()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 5909040929,
+              "duration": 7571242349,
               "status": "passed"
             },
             "match": {
@@ -110,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 148000,
+              "duration": 115974957,
               "status": "passed"
             },
             "line": 17,
@@ -131,7 +44,7 @@
           },
           {
             "result": {
-              "duration": 67111,
+              "duration": 266666,
               "status": "passed"
             },
             "line": 18,
@@ -152,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 1571299301,
+              "duration": 1817952243,
               "status": "passed"
             },
             "line": 19,
@@ -164,11 +77,20 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 87111,
+              "status": "passed"
             },
             "line": 20,
-            "name": "I should be able to get the proper errorNo se ha podido encontrar tu cuenta de Google",
-            "match": {},
+            "name": "I should be able to get the proper errorIngresa un correo electrónico o número de teléfono",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ingresa un correo electrónico o número de teléfono",
+                  "offset": 40
+                }
+              ],
+              "location": "AccessGStepDef.I_should_be_able_to_get_the_proper_error(String)"
+            },
             "matchedColumns": [
               2
             ],
@@ -176,14 +98,16 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 5857471745,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertTrue(Assert.java:41)\r\n\tat org.testng.Assert.assertTrue(Assert.java:51)\r\n\tat page.gaccess.GmailPage.fillPassword(GmailPage.java:107)\r\n\tat cucumber.integration.AccessGStepDef.The_color_should_be(AccessGStepDef.java:78)\r\n\tat ✽.And The color should be rgba(213, 0, 0, 1)(Features/Access.feature:21)\r\n",
+              "status": "failed"
             },
             "line": 21,
-            "name": "The color should be #d50000",
+            "name": "The color should be rgba(213, 0, 0, 1)",
             "match": {
               "arguments": [
                 {
-                  "val": "#d50000",
+                  "val": "rgba(213, 0, 0, 1)",
                   "offset": 20
                 }
               ],
