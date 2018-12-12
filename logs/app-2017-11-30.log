@@ -1,0 +1,268 @@
+12:42:25.656 [INFO ] [Regression] - The Suite is Started
+12:42:26.042 [INFO ] [Regression] - The test Started
+12:42:26.042 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:42:26.275 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (b16bb017d1f0a23387d4414409de76fa)] -> xpath: //a[@class='gb_b gb_cc']] is present
+12:42:26.400 [INFO ] [GoogleAccessPageFactory] - Click on Apps Logo
+12:42:26.401 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:42:27.039 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (b16bb017d1f0a23387d4414409de76fa)] -> xpath: //a[@id='gb36']] is present
+12:42:31.402 [INFO ] [GoogleAccessPageFactory] - Click on Youtube Logo
+12:42:31.483 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:42:31.658 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (b16bb017d1f0a23387d4414409de76fa)] -> xpath: //yt-formatted-string[@id='text'][@class='style-scope ytd-button-renderer style-brand']] is present
+12:42:31.659 [INFO ] [YoutubePage] - Youtube Sign In is displayed
+12:42:34.374 [INFO ] [YoutubePage] - Click on Youtube Sign in
+12:42:34.374 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:42:34.649 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (b16bb017d1f0a23387d4414409de76fa)] -> id: logo] is present
+12:42:34.649 [INFO ] [GmailPage] - Gmail logo is displayed
+12:42:34.649 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:42:34.711 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (b16bb017d1f0a23387d4414409de76fa)] -> xpath: //input[@type='email']] is present
+12:42:34.711 [INFO ] [GmailPage] - User name request is displayed
+12:42:35.067 [INFO ] [GmailPage] - User eduardo.alvarez0007 was sent
+12:42:35.067 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:42:35.140 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (b16bb017d1f0a23387d4414409de76fa)] -> id: identifierNext] is present
+12:42:35.140 [INFO ] [GmailPage] - Next button is displayed
+12:42:35.287 [INFO ] [GmailPage] - Click on Next Button
+12:42:35.287 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:42:35.942 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-839F16UB', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\eduar\AppData\Local\Temp\scoped_dir13212_28066}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b16bb017d1f0a23387d4414409de76fa
+12:42:35.989 [INFO ] [Regression] - The Suite is completed
+12:44:59.593 [INFO ] [Regression] - The Suite is Started
+12:45:00.129 [INFO ] [Regression] - The test Started
+12:45:00.130 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:45:00.202 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (0901e61b03edb9ca39838d0bf6b39011)] -> xpath: //a[@class='gb_b gb_cc']] is present
+12:45:00.389 [INFO ] [GoogleAccessPageFactory] - Click on Apps Logo
+12:45:00.389 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:45:05.489 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (0901e61b03edb9ca39838d0bf6b39011)] -> xpath: //a[@id='gb36']] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-839F16UB', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\eduar\AppData\Local\Temp\scoped_dir13460_23810}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0901e61b03edb9ca39838d0bf6b39011
+12:45:05.508 [INFO ] [Regression] - The Suite is completed
+12:45:29.043 [INFO ] [Regression] - The Suite is Started
+12:45:29.549 [INFO ] [Regression] - The test Started
+12:45:29.550 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:45:29.733 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (cc1442c94d10ef40388889ac3acc3938)] -> xpath: //a[@class='gb_b gb_cc']] is present
+12:45:29.819 [INFO ] [GoogleAccessPageFactory] - Click on Apps Logo
+12:45:29.819 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:45:30.433 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (cc1442c94d10ef40388889ac3acc3938)] -> xpath: //a[@id='gb36']] is present
+12:45:34.855 [INFO ] [GoogleAccessPageFactory] - Click on Youtube Logo
+12:45:34.856 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:45:39.929 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //yt-formatted-string[@id='text'][@class='style-scope ytd-button-renderer style-brand']' (tried for 5 second(s) with 500 MILLISECONDS interval)
+12:45:39.933 [INFO ] [Regression] - The Suite is completed
+12:47:37.771 [INFO ] [Regression] - The Suite is Started
+12:47:38.187 [INFO ] [Regression] - The test Started
+12:47:38.189 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:47:38.265 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (7bb9880a9cc183867d6988ef75a5384e)] -> xpath: //a[@class='gb_b gb_cc']] is present
+12:47:38.449 [INFO ] [GoogleAccessPageFactory] - Click on Apps Logo
+12:47:38.449 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:47:43.494 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (7bb9880a9cc183867d6988ef75a5384e)] -> xpath: //a[@id='gb36']] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-839F16UB', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\eduar\AppData\Local\Temp\scoped_dir3092_29049}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7bb9880a9cc183867d6988ef75a5384e
+12:47:43.511 [INFO ] [Regression] - The Suite is completed
+12:47:58.188 [INFO ] [Regression] - The Suite is Started
+12:47:58.594 [INFO ] [Regression] - The test Started
+12:47:58.595 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:47:58.793 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (3d0e91cf714efa669a01c8a77dcef8de)] -> xpath: //a[@class='gb_b gb_cc']] is present
+12:47:58.946 [INFO ] [GoogleAccessPageFactory] - Click on Apps Logo
+12:47:58.947 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:47:59.594 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (3d0e91cf714efa669a01c8a77dcef8de)] -> xpath: //a[@id='gb36']] is present
+12:48:03.458 [INFO ] [GoogleAccessPageFactory] - Click on Youtube Logo
+12:48:03.458 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:48:03.532 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (3d0e91cf714efa669a01c8a77dcef8de)] -> xpath: //yt-formatted-string[@id='text'][@class='style-scope ytd-button-renderer style-brand']] is present
+12:48:03.532 [INFO ] [YoutubePage] - Youtube Sign In is displayed
+12:48:05.006 [INFO ] [YoutubePage] - Click on Youtube Sign in
+12:48:05.006 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:48:05.321 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (3d0e91cf714efa669a01c8a77dcef8de)] -> id: logo] is present
+12:48:05.321 [INFO ] [GmailPage] - Gmail logo is displayed
+12:48:05.321 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:48:05.387 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (3d0e91cf714efa669a01c8a77dcef8de)] -> xpath: //input[@type='email']] is present
+12:48:05.388 [INFO ] [GmailPage] - User name request is displayed
+12:48:05.603 [INFO ] [GmailPage] - User eduardo.alvarez0007 was sent
+12:48:05.604 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:48:05.663 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (3d0e91cf714efa669a01c8a77dcef8de)] -> id: identifierNext] is present
+12:48:05.663 [INFO ] [GmailPage] - Next button is displayed
+12:48:05.806 [INFO ] [GmailPage] - Click on Next Button
+12:48:05.806 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:48:06.469 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (3d0e91cf714efa669a01c8a77dcef8de)] -> xpath: //input[@type='password']] is present
+12:48:06.470 [INFO ] [GmailPage] - Password input is displayed
+12:48:06.607 [INFO ] [GmailPage] - Password for the user eduardo.alvarez0007 was sent
+12:48:06.607 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:48:06.670 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (3d0e91cf714efa669a01c8a77dcef8de)] -> id: passwordNext] is present
+12:48:06.670 [INFO ] [GmailPage] - Next Password Button is displayed
+12:48:06.804 [INFO ] [GmailPage] - Click on Next Password Button
+12:48:06.804 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:48:12.230 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[@href='/upload']' (tried for 5 second(s) with 500 MILLISECONDS interval)
+12:48:12.240 [INFO ] [Regression] - The Suite is completed
+12:49:00.581 [INFO ] [Regression] - The Suite is Started
+12:49:01.051 [INFO ] [Regression] - The test Started
+12:49:01.051 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:01.289 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (52951450f080f09f828569128aa49134)] -> xpath: //a[@class='gb_b gb_cc']] is present
+12:49:01.386 [INFO ] [GoogleAccessPageFactory] - Click on Apps Logo
+12:49:01.386 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:02.078 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (52951450f080f09f828569128aa49134)] -> xpath: //a[@id='gb36']] is present
+12:49:06.606 [INFO ] [GoogleAccessPageFactory] - Click on Youtube Logo
+12:49:06.607 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:11.904 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //yt-formatted-string[@id='text'][@class='style-scope ytd-button-renderer style-brand']' (tried for 5 second(s) with 500 MILLISECONDS interval)
+12:49:11.910 [INFO ] [Regression] - The Suite is completed
+12:49:26.157 [INFO ] [Regression] - The Suite is Started
+12:49:26.629 [INFO ] [Regression] - The test Started
+12:49:26.630 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:26.816 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (acec57bce7fdcd40b3851d1bd9e9d5b9)] -> xpath: //a[@class='gb_b gb_cc']] is present
+12:49:26.902 [INFO ] [GoogleAccessPageFactory] - Click on Apps Logo
+12:49:26.903 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:27.569 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (acec57bce7fdcd40b3851d1bd9e9d5b9)] -> xpath: //a[@id='gb36']] is present
+12:49:31.672 [INFO ] [GoogleAccessPageFactory] - Click on Youtube Logo
+12:49:31.672 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:31.740 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (acec57bce7fdcd40b3851d1bd9e9d5b9)] -> xpath: //yt-formatted-string[@id='text'][@class='style-scope ytd-button-renderer style-brand']] is present
+12:49:31.741 [INFO ] [YoutubePage] - Youtube Sign In is displayed
+12:49:33.445 [INFO ] [YoutubePage] - Click on Youtube Sign in
+12:49:33.445 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:33.524 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (acec57bce7fdcd40b3851d1bd9e9d5b9)] -> id: logo] is present
+12:49:33.524 [INFO ] [GmailPage] - Gmail logo is displayed
+12:49:33.524 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:33.596 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (acec57bce7fdcd40b3851d1bd9e9d5b9)] -> xpath: //input[@type='email']] is present
+12:49:33.597 [INFO ] [GmailPage] - User name request is displayed
+12:49:33.811 [INFO ] [GmailPage] - User eduardo.alvarez0007 was sent
+12:49:33.811 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:33.871 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (acec57bce7fdcd40b3851d1bd9e9d5b9)] -> id: identifierNext] is present
+12:49:33.871 [INFO ] [GmailPage] - Next button is displayed
+12:49:33.994 [INFO ] [GmailPage] - Click on Next Button
+12:49:33.994 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:34.609 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (acec57bce7fdcd40b3851d1bd9e9d5b9)] -> xpath: //input[@type='password']] is present
+12:49:34.610 [INFO ] [GmailPage] - Password input is displayed
+12:49:34.820 [INFO ] [GmailPage] - Password for the user eduardo.alvarez0007 was sent
+12:49:34.820 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:34.895 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (acec57bce7fdcd40b3851d1bd9e9d5b9)] -> id: passwordNext] is present
+12:49:34.895 [INFO ] [GmailPage] - Next Password Button is displayed
+12:49:35.035 [INFO ] [GmailPage] - Click on Next Password Button
+12:49:35.036 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:39.468 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (acec57bce7fdcd40b3851d1bd9e9d5b9)] -> xpath: //a[@href='/upload']] is present
+12:49:39.469 [INFO ] [YoutubePage] - Youtube Upload is displayed
+12:49:42.065 [INFO ] [YoutubePage] - Click on Youtube Upload
+12:49:42.065 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+12:49:42.277 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (acec57bce7fdcd40b3851d1bd9e9d5b9)] -> xpath: //div[@id='start-upload-button-single']/button] is present
+12:49:42.277 [INFO ] [YoutubePage] - Select files to upload button is displayed
+12:49:42.404 [INFO ] [YoutubePage] - Click Select files to upload button
+12:49:52.415 [INFO ] [Regression] - The Suite is completed
+15:56:35.730 [INFO ] [AccessGStepDef] - The Suite is Started
+15:56:35.969 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+15:56:36.059 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (0c57fc16badad57a2143232301833547)] -> id: gb_70] is present
+15:56:37.571 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+15:56:37.573 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+15:56:37.665 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (0c57fc16badad57a2143232301833547)] -> xpath: //input[@type='email']] is present
+15:56:37.665 [INFO ] [GmailPage] - User name request is displayed
+15:56:37.892 [INFO ] [GmailPage] - User eduardo.alvarez0007 was sent
+15:56:37.893 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+15:56:43.015 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (0c57fc16badad57a2143232301833547)] -> xpath: //input[@type='password']] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-839F16UB', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\eduar\AppData\Local\Temp\scoped_dir11968_25313}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0c57fc16badad57a2143232301833547
+15:58:52.964 [INFO ] [AccessGStepDef] - The Suite is Started
+15:58:53.079 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+15:58:53.147 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (d08660f5ed0ef99113eccb8d7083d3d0)] -> id: gb_70] is present
+15:58:54.510 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+15:58:54.513 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+15:58:54.598 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (d08660f5ed0ef99113eccb8d7083d3d0)] -> xpath: //input[@type='email']] is present
+15:58:54.598 [INFO ] [GmailPage] - User name request is displayed
+15:58:54.822 [INFO ] [GmailPage] - User eduardo.alvarez0007 was sent
+15:58:54.822 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+15:58:54.883 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (d08660f5ed0ef99113eccb8d7083d3d0)] -> id: identifierNext] is present
+15:58:54.884 [INFO ] [GmailPage] - Next button is displayed
+15:58:55.027 [INFO ] [GmailPage] - Click on Next Button
+15:58:55.027 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+15:58:55.671 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-839F16UB', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\eduar\AppData\Local\Temp\scoped_dir8512_22708}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d08660f5ed0ef99113eccb8d7083d3d0
+16:02:46.560 [INFO ] [AccessGStepDef] - The Suite is Started
+16:02:46.670 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+16:02:46.756 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (c65048342ef3c8acd40211f91013d175)] -> id: gb_70] is present
+16:02:48.168 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+16:02:48.170 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+16:02:48.244 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (c65048342ef3c8acd40211f91013d175)] -> id: logo] is present
+16:02:48.244 [INFO ] [GmailPage] - Gmail logo is displayed
+16:02:48.244 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+16:02:48.314 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (c65048342ef3c8acd40211f91013d175)] -> xpath: //input[@type='email']] is present
+16:02:48.314 [INFO ] [GmailPage] - User name request is displayed
+16:02:48.535 [INFO ] [GmailPage] - User eduardo.alvarez0007 was sent
+16:02:48.535 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+16:02:48.599 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (c65048342ef3c8acd40211f91013d175)] -> id: identifierNext] is present
+16:02:48.599 [INFO ] [GmailPage] - Next button is displayed
+16:02:48.731 [INFO ] [GmailPage] - Click on Next Button
+16:02:48.731 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+16:02:49.384 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (c65048342ef3c8acd40211f91013d175)] -> xpath: //input[@type='password']] is present
+16:02:49.384 [INFO ] [GmailPage] - Password input is displayed
+16:02:49.577 [INFO ] [GmailPage] - Password for the user eduardo.alvarez0007 was sent
+16:02:49.577 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+16:02:49.638 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (c65048342ef3c8acd40211f91013d175)] -> id: passwordNext] is present
+16:02:49.638 [INFO ] [GmailPage] - Next Password Button is displayed
+16:02:49.762 [INFO ] [GmailPage] - Click on Next Password Button
+17:32:57.583 [INFO ] [AccessGStepDef] - The Suite is Started
+17:32:57.699 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+17:32:57.788 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (6e2696216a26aec9a2878f74649e25a2)] -> id: gb_70] is present
+17:32:59.262 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+17:32:59.264 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+17:32:59.360 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (6e2696216a26aec9a2878f74649e25a2)] -> id: logo] is present
+17:32:59.360 [INFO ] [GmailPage] - Gmail logo is displayed
+17:32:59.361 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+17:32:59.430 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (6e2696216a26aec9a2878f74649e25a2)] -> xpath: //input[@type='email']] is present
+17:32:59.431 [INFO ] [GmailPage] - User name request is displayed
+17:32:59.643 [INFO ] [GmailPage] - User eduardo.alvarez0007 was sent
+17:32:59.643 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+17:32:59.703 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (6e2696216a26aec9a2878f74649e25a2)] -> id: identifierNext] is present
+17:32:59.703 [INFO ] [GmailPage] - Next button is displayed
+17:32:59.849 [INFO ] [GmailPage] - Click on Next Button
+17:32:59.849 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+17:33:00.518 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (6e2696216a26aec9a2878f74649e25a2)] -> xpath: //input[@type='password']] is present
+17:33:00.518 [INFO ] [GmailPage] - Password input is displayed
+17:33:00.729 [INFO ] [GmailPage] - Password for the user eduardo.alvarez0007 was sent
+17:33:00.729 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+17:33:00.788 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (6e2696216a26aec9a2878f74649e25a2)] -> id: passwordNext] is present
+17:33:00.788 [INFO ] [GmailPage] - Next Password Button is displayed
+17:33:00.916 [INFO ] [GmailPage] - Click on Next Password Button
+18:07:15.118 [INFO ] [AccessGStepDef] - The Suite is Started
+18:07:15.237 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+18:07:15.306 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (dbc464368bd932f1b59310f8d5eddaef)] -> id: gb_70] is present
+18:07:16.706 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+18:07:16.708 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+18:07:16.792 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (dbc464368bd932f1b59310f8d5eddaef)] -> id: logo] is present
+18:07:16.792 [INFO ] [GmailPage] - Gmail logo is displayed
+18:07:16.792 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+18:07:16.863 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (dbc464368bd932f1b59310f8d5eddaef)] -> xpath: //input[@type='email']] is present
+18:07:16.863 [INFO ] [GmailPage] - User name request is displayed
+18:07:17.099 [INFO ] [GmailPage] - User  eduardo.alvarez0007 was sent
+18:07:17.099 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+18:07:17.164 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (dbc464368bd932f1b59310f8d5eddaef)] -> id: identifierNext] is present
+18:07:17.164 [INFO ] [GmailPage] - Next button is displayed
+18:07:17.300 [INFO ] [GmailPage] - Click on Next Button
+18:07:17.300 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+18:07:18.506 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (dbc464368bd932f1b59310f8d5eddaef)] -> xpath: //input[@type='password']] is present
+18:07:18.506 [INFO ] [GmailPage] - Password input is displayed
+18:07:18.685 [INFO ] [GmailPage] - Password for the user S3r3nd1p1aLup0N3r0 was sent
+18:07:18.686 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+18:07:18.742 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (dbc464368bd932f1b59310f8d5eddaef)] -> id: passwordNext] is present
+18:07:18.742 [INFO ] [GmailPage] - Next Password Button is displayed
+18:07:18.858 [INFO ] [GmailPage] - Click on Next Password Button
+18:07:24.772 [INFO ] [AccessGStepDef] - The Suite is Started
+18:07:24.783 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+18:07:24.846 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (e9fdc3e512655954f35cbbb2e9914a29)] -> id: gb_70] is present
+18:07:26.354 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button

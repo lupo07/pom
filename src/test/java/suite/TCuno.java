@@ -11,7 +11,7 @@ import page.gaccess.GoogleAccessPageFactory;
 public class TCuno {
 	WebDriver driver;
 	String browser = "firefox";
-	DriverSet ds = new DriverSet(driver, browser);
+	DriverSet ds = new DriverSet( browser);
 	GoogleAccessPageFactory gapf;
 	
 	@Before

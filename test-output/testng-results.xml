@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12995" started-at="2017-10-05T04:32:55Z" finished-at="2017-10-05T04:33:08Z">
+  <suite name="Default suite" duration-ms="33064" started-at="2017-11-30T18:49:20Z" finished-at="2017-11-30T18:49:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12995" started-at="2017-10-05T04:32:55Z" finished-at="2017-10-05T04:33:08Z">
+    <test name="Default test" duration-ms="33064" started-at="2017-11-30T18:49:20Z" finished-at="2017-11-30T18:49:53Z">
       <class name="suite.Regression">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:suite.Regression@224edc67]" name="setUp" is-config="true" duration-ms="10164" started-at="2017-10-04T23:32:55Z" finished-at="2017-10-04T23:33:05Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:suite.Regression@1fa268de]" name="setUp" is-config="true" duration-ms="6089" started-at="2017-11-30T12:49:20Z" finished-at="2017-11-30T12:49:26Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:suite.Regression@224edc67]" name="Test" duration-ms="1976" started-at="2017-10-04T23:33:05Z" finished-at="2017-10-04T23:33:07Z">
+        <test-method status="PASS" signature="YoutubeAccessTest()[pri:0, instance:suite.Regression@1fa268de]" name="YoutubeAccessTest" duration-ms="26250" started-at="2017-11-30T12:49:26Z" finished-at="2017-11-30T12:49:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:suite.Regression@224edc67]" name="cleanUp" is-config="true" duration-ms="823" started-at="2017-10-04T23:33:07Z" finished-at="2017-10-04T23:33:08Z">
+        </test-method> <!-- YoutubeAccessTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:suite.Regression@1fa268de]" name="cleanUp" is-config="true" duration-ms="704" started-at="2017-11-30T12:49:52Z" finished-at="2017-11-30T12:49:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->

@@ -1,0 +1,171 @@
+22:23:41.701 [INFO ] [AccessGStepDef] - The Suite is Started
+22:23:43.220 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:23:43.520 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (e981f94351bf5234fcbdf6828c42d280)] -> id: gb_70] is present
+22:23:47.889 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+22:23:47.891 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:23:48.239 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (e981f94351bf5234fcbdf6828c42d280)] -> id: logo] is present
+22:23:48.239 [INFO ] [GmailPage] - Gmail logo is displayed
+22:23:48.239 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:23:48.301 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (e981f94351bf5234fcbdf6828c42d280)] -> xpath: //input[@type='email']] is present
+22:23:48.302 [INFO ] [GmailPage] - User name request is displayed
+22:23:48.524 [INFO ] [GmailPage] - User  eduardo.alvarez0007 was sent
+22:23:48.524 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:23:48.595 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (e981f94351bf5234fcbdf6828c42d280)] -> id: identifierNext] is present
+22:23:48.595 [INFO ] [GmailPage] - Next button is displayed
+22:23:49.094 [INFO ] [GmailPage] - Click on Next Button
+22:23:49.094 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:23:50.276 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (e981f94351bf5234fcbdf6828c42d280)] -> xpath: //input[@type='password']] is present
+22:23:50.276 [INFO ] [GmailPage] - Password input is displayed
+22:23:50.457 [INFO ] [GmailPage] - Password for the user S3r3nd1p1aLup0N3r0 was sent
+22:23:50.458 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:23:50.515 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (e981f94351bf5234fcbdf6828c42d280)] -> id: passwordNext] is present
+22:23:50.515 [INFO ] [GmailPage] - Next Password Button is displayed
+22:23:50.636 [INFO ] [GmailPage] - Click on Next Password Button
+22:24:06.698 [INFO ] [AccessGStepDef] - The Suite is Started
+22:24:06.705 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:24:06.789 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (a9c8a1f5f7e2640852e3446712d9e931)] -> id: gb_70] is present
+22:24:09.823 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+22:27:39.803 [INFO ] [AccessGStepDef] - The Suite is Started
+22:27:39.978 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:27:40.152 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (b2bc6923f3b84a0493722a258da667ee)] -> id: gb_70] is present
+22:27:41.870 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+22:33:01.760 [INFO ] [AccessGStepDef] - The Suite is Started
+22:33:01.912 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:33:02.010 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (f71db3c816c5a33ce26a75cee69e238b)] -> id: gb_70] is present
+22:33:03.220 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+22:33:03.223 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:33:03.536 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (f71db3c816c5a33ce26a75cee69e238b)] -> id: logo] is present
+22:33:03.537 [INFO ] [GmailPage] - Gmail logo is displayed
+22:33:03.537 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:33:03.597 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (f71db3c816c5a33ce26a75cee69e238b)] -> xpath: //input[@type='email']] is present
+22:33:03.597 [INFO ] [GmailPage] - User name request is displayed
+22:33:03.671 [INFO ] [GmailPage] - User   was sent
+22:33:03.671 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:33:03.734 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (f71db3c816c5a33ce26a75cee69e238b)] -> id: identifierNext] is present
+22:33:03.734 [INFO ] [GmailPage] - Next button is displayed
+22:33:03.844 [INFO ] [GmailPage] - Click on Next Button
+22:34:54.599 [INFO ] [AccessGStepDef] - The Suite is Started
+22:34:54.849 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:34:55.013 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (152f67c5fd9bff2cbd5663fcf4e8c06b)] -> id: gb_70] is present
+22:34:56.607 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+22:34:56.610 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:34:57.115 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (152f67c5fd9bff2cbd5663fcf4e8c06b)] -> id: logo] is present
+22:34:57.115 [INFO ] [GmailPage] - Gmail logo is displayed
+22:34:57.116 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:34:57.183 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (152f67c5fd9bff2cbd5663fcf4e8c06b)] -> xpath: //input[@type='email']] is present
+22:34:57.184 [INFO ] [GmailPage] - User name request is displayed
+22:34:57.281 [INFO ] [GmailPage] - User   was sent
+22:34:57.281 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:34:57.358 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (152f67c5fd9bff2cbd5663fcf4e8c06b)] -> id: identifierNext] is present
+22:34:57.358 [INFO ] [GmailPage] - Next button is displayed
+22:34:57.491 [INFO ] [GmailPage] - Click on Next Button
+22:34:57.491 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:35:02.874 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (152f67c5fd9bff2cbd5663fcf4e8c06b)] -> xpath: //input[@type='password']] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-839F16UB', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\eduar\AppData\Local\Temp\scoped_dir5204_8467}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 152f67c5fd9bff2cbd5663fcf4e8c06b
+22:37:25.724 [INFO ] [AccessGStepDef] - The Suite is Started
+22:37:25.908 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:37:26.041 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (4524cb9baf18a7d76508007768fd279d)] -> id: gb_70] is present
+22:37:27.547 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+22:37:27.550 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:37:27.634 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (4524cb9baf18a7d76508007768fd279d)] -> id: logo] is present
+22:37:27.634 [INFO ] [GmailPage] - Gmail logo is displayed
+22:37:27.634 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:37:27.720 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (4524cb9baf18a7d76508007768fd279d)] -> xpath: //input[@type='email']] is present
+22:37:27.721 [INFO ] [GmailPage] - User name request is displayed
+22:37:27.809 [INFO ] [GmailPage] - User   was sent
+22:37:27.809 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:37:27.869 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (4524cb9baf18a7d76508007768fd279d)] -> id: identifierNext] is present
+22:37:27.869 [INFO ] [GmailPage] - Next button is displayed
+22:37:27.983 [INFO ] [GmailPage] - Click on Next Button
+22:37:27.983 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:37:33.350 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='LXRPh'][@xpath='1']/div[@class='dEOOab RxsGPe']' (tried for 5 second(s) with 500 MILLISECONDS interval)
+22:38:31.354 [INFO ] [AccessGStepDef] - The Suite is Started
+22:38:31.517 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:38:31.634 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (137b80a02d09775a96c1d130028a81f4)] -> id: gb_70] is present
+22:38:33.029 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+22:38:33.031 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:38:33.106 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (137b80a02d09775a96c1d130028a81f4)] -> id: logo] is present
+22:38:33.107 [INFO ] [GmailPage] - Gmail logo is displayed
+22:38:33.107 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:38:33.189 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (137b80a02d09775a96c1d130028a81f4)] -> xpath: //input[@type='email']] is present
+22:38:33.189 [INFO ] [GmailPage] - User name request is displayed
+22:38:33.288 [INFO ] [GmailPage] - User   was sent
+22:38:33.288 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:38:33.349 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (137b80a02d09775a96c1d130028a81f4)] -> id: identifierNext] is present
+22:38:33.349 [INFO ] [GmailPage] - Next button is displayed
+22:38:33.460 [INFO ] [GmailPage] - Click on Next Button
+22:38:33.461 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:38:38.852 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='LXRPh'][@xpath='1']/div[@class='dEOOab RxsGPe']' (tried for 5 second(s) with 500 MILLISECONDS interval)
+22:45:47.004 [INFO ] [AccessGStepDef] - The Suite is Started
+22:45:47.185 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:45:47.304 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (d1da071b31be0c384d17b2bcfcb92968)] -> id: gb_70] is present
+22:45:48.803 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+22:45:48.807 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:45:48.898 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (d1da071b31be0c384d17b2bcfcb92968)] -> id: logo] is present
+22:45:48.898 [INFO ] [GmailPage] - Gmail logo is displayed
+22:45:48.898 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:45:48.977 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (d1da071b31be0c384d17b2bcfcb92968)] -> xpath: //input[@type='email']] is present
+22:45:48.977 [INFO ] [GmailPage] - User name request is displayed
+22:45:49.070 [INFO ] [GmailPage] - User   was sent
+22:45:49.071 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:45:49.146 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (d1da071b31be0c384d17b2bcfcb92968)] -> id: identifierNext] is present
+22:45:49.147 [INFO ] [GmailPage] - Next button is displayed
+22:45:49.254 [INFO ] [GmailPage] - Click on Next Button
+22:45:49.254 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:45:49.344 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (d1da071b31be0c384d17b2bcfcb92968)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+22:45:49.344 [INFO ] [GmailPage] - The error message is displayed
+22:53:47.997 [INFO ] [AccessGStepDef] - The Suite is Started
+22:53:48.180 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:53:48.294 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fc43eb8aa3a5a9fbdeb6c932fa58fc0)] -> id: gb_70] is present
+22:53:49.532 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+22:53:49.536 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:53:49.841 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fc43eb8aa3a5a9fbdeb6c932fa58fc0)] -> id: logo] is present
+22:53:49.841 [INFO ] [GmailPage] - Gmail logo is displayed
+22:53:49.842 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:53:49.905 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fc43eb8aa3a5a9fbdeb6c932fa58fc0)] -> xpath: //input[@type='email']] is present
+22:53:49.905 [INFO ] [GmailPage] - User name request is displayed
+22:53:49.978 [INFO ] [GmailPage] - User   was sent
+22:53:49.978 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:53:50.044 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fc43eb8aa3a5a9fbdeb6c932fa58fc0)] -> id: identifierNext] is present
+22:53:50.044 [INFO ] [GmailPage] - Next button is displayed
+22:53:50.163 [INFO ] [GmailPage] - Click on Next Button
+22:53:50.163 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:53:50.247 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fc43eb8aa3a5a9fbdeb6c932fa58fc0)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+22:53:50.248 [INFO ] [GmailPage] - The error message is displayed
+22:53:50.290 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:53:50.333 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fc43eb8aa3a5a9fbdeb6c932fa58fc0)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+22:53:50.334 [INFO ] [GmailPage] - The error message is displayed
+22:53:50.361 [INFO ] [AccessGStepDef] - Expected error color is: rgba(213, 0, 0, 1) Actual Color Message is: rgba(213, 0, 0, 1)
+22:55:01.671 [INFO ] [AccessGStepDef] - The Suite is Started
+22:55:01.832 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:55:01.967 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (006a212f3f05123466684e94e5047a61)] -> id: gb_70] is present
+22:55:03.419 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+22:55:03.421 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:55:03.504 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (006a212f3f05123466684e94e5047a61)] -> id: logo] is present
+22:55:03.504 [INFO ] [GmailPage] - Gmail logo is displayed
+22:55:03.504 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:55:03.568 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (006a212f3f05123466684e94e5047a61)] -> xpath: //input[@type='email']] is present
+22:55:03.569 [INFO ] [GmailPage] - User name request is displayed
+22:55:03.643 [INFO ] [GmailPage] - User   was sent
+22:55:03.643 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:55:03.710 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (006a212f3f05123466684e94e5047a61)] -> id: identifierNext] is present
+22:55:03.710 [INFO ] [GmailPage] - Next button is displayed
+22:55:03.818 [INFO ] [GmailPage] - Click on Next Button
+22:55:03.818 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:55:03.904 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (006a212f3f05123466684e94e5047a61)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+22:55:03.905 [INFO ] [GmailPage] - The error message is displayed
+22:55:03.949 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:55:03.989 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (006a212f3f05123466684e94e5047a61)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+22:55:03.990 [INFO ] [GmailPage] - The error message is displayed
+22:55:04.017 [INFO ] [AccessGStepDef] - Expected error message is: Ingresa un correo electrónico o número de teléfono Actual Error Message is: Ingresa un correo electrónico o número de teléfono
+22:55:04.017 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:55:04.054 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (006a212f3f05123466684e94e5047a61)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+22:55:04.054 [INFO ] [GmailPage] - The error message is displayed
+22:55:04.085 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+22:55:04.130 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (006a212f3f05123466684e94e5047a61)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+22:55:04.130 [INFO ] [GmailPage] - The error message is displayed
+22:55:04.154 [INFO ] [AccessGStepDef] - Expected error color is: rgba(213, 0, 0, 1) Actual Color Message is: rgba(213, 0, 0, 1)

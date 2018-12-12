@@ -1,0 +1,73 @@
+00:05:56.871 [INFO ] [AccessGStepDef] - The Suite is Started
+00:05:56.998 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:05:57.078 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fb34766b56e99439675f526fbe9e988)] -> id: gb_70] is present
+00:05:58.614 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+00:05:58.617 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:05:58.977 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fb34766b56e99439675f526fbe9e988)] -> id: logo] is present
+00:05:58.977 [INFO ] [GmailPage] - Gmail logo is displayed
+00:05:58.978 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:05:59.054 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fb34766b56e99439675f526fbe9e988)] -> xpath: //input[@type='email']] is present
+00:05:59.054 [INFO ] [GmailPage] - User name request is displayed
+00:05:59.135 [INFO ] [GmailPage] - User   was sent
+00:05:59.135 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:05:59.197 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fb34766b56e99439675f526fbe9e988)] -> id: identifierNext] is present
+00:05:59.197 [INFO ] [GmailPage] - Next button is displayed
+00:05:59.319 [INFO ] [GmailPage] - Click on Next Button
+00:05:59.319 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:05:59.401 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fb34766b56e99439675f526fbe9e988)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+00:05:59.401 [INFO ] [GmailPage] - The error message is displayed
+00:05:59.452 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:05:59.494 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fb34766b56e99439675f526fbe9e988)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+00:05:59.494 [INFO ] [GmailPage] - The error message is displayed
+00:05:59.540 [INFO ] [AccessGStepDef] - Expected error message is: Ingresa un correo electrónico o número de teléfono Actual Error Message is: Ingresa un correo electrónico o número de teléfono
+00:05:59.540 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:05:59.577 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fb34766b56e99439675f526fbe9e988)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+00:05:59.577 [INFO ] [GmailPage] - The error message is displayed
+00:05:59.614 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:05:59.658 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (2fb34766b56e99439675f526fbe9e988)] -> xpath: //div[@jsname='B34EJ'][text()='Ingresa un correo electrónico o número de teléfono']] is present
+00:05:59.658 [INFO ] [GmailPage] - The error message is displayed
+00:05:59.688 [INFO ] [AccessGStepDef] - Expected error color is: rgba(213, 0, 0, 1) Actual Color Message is: rgba(213, 0, 0, 1)
+00:10:02.524 [INFO ] [AccessGStepDef] - The Suite is Started
+00:10:02.663 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:10:02.773 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (5bf19af566382d5086515d7182fe1c6c)] -> id: gb_70] is present
+00:10:04.460 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+00:10:04.464 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:10:04.568 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (5bf19af566382d5086515d7182fe1c6c)] -> id: logo] is present
+00:10:04.569 [INFO ] [GmailPage] - Gmail logo is displayed
+00:10:04.569 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:10:04.651 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (5bf19af566382d5086515d7182fe1c6c)] -> xpath: //input[@type='email']] is present
+00:10:04.651 [INFO ] [GmailPage] - User name request is displayed
+00:10:04.734 [INFO ] [GmailPage] - User   was sent
+00:10:04.734 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:10:04.802 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (5bf19af566382d5086515d7182fe1c6c)] -> id: identifierNext] is present
+00:10:04.802 [INFO ] [GmailPage] - Next button is displayed
+00:10:04.908 [INFO ] [GmailPage] - Click on Next Button
+00:10:04.908 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:10:10.320 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (5bf19af566382d5086515d7182fe1c6c)] -> xpath: //input[@type='password']] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-839F16UB', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\eduar\AppData\Local\Temp\scoped_dir3344_26334}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5bf19af566382d5086515d7182fe1c6c
+00:11:22.542 [INFO ] [AccessGStepDef] - The Suite is Started
+00:11:22.675 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:11:22.771 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (54b66d51a1cba1e9853a09ed0b3e5634)] -> id: gb_70] is present
+00:11:24.492 [INFO ] [GoogleAccessPageFactory] - Click on  sign in button
+00:11:24.495 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:11:24.615 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (54b66d51a1cba1e9853a09ed0b3e5634)] -> id: logo] is present
+00:11:24.616 [INFO ] [GmailPage] - Gmail logo is displayed
+00:11:24.616 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:11:24.697 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (54b66d51a1cba1e9853a09ed0b3e5634)] -> xpath: //input[@type='email']] is present
+00:11:24.697 [INFO ] [GmailPage] - User name request is displayed
+00:11:24.782 [INFO ] [GmailPage] - User   was sent
+00:11:24.782 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:11:24.846 [INFO ] [ExplicitWaits] - Element[[ChromeDriver: chrome on XP (54b66d51a1cba1e9853a09ed0b3e5634)] -> id: identifierNext] is present
+00:11:24.847 [INFO ] [GmailPage] - Next button is displayed
+00:11:24.955 [INFO ] [GmailPage] - Click on Next Button
+00:11:24.956 [INFO ] [ExplicitWaits] - Waiting for max:: 5 seconds for element to be available
+00:11:30.350 [DEBUG] [ExplicitWaits] - Element is not present org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (54b66d51a1cba1e9853a09ed0b3e5634)] -> xpath: //input[@type='password']] (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'LAPTOP-839F16UB', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\eduar\AppData\Local\Temp\scoped_dir11848_32398}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 54b66d51a1cba1e9853a09ed0b3e5634
